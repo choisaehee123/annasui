@@ -24,11 +24,11 @@ header nav ul{
 
 }
 
-
-.main{
-  background-image: url('interface/img/main/mainanna.png'),
-                    linear-gradient(#E100FF,#554596);
-  min-height: 100vh;
+.main1{
+  width: 1200px;
+  height: 500px;
+  margin-left: 70px;
+  background-image: url('img/main/mainanna.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,6 +36,11 @@ header nav ul{
   padding: 0.4%;
   }
 
+.main01{
+  background-image: linear-gradient(#E100FF,#554596);
+  justify-content: center;
+
+}
 .menu1{margin-left: 50px;}
 .menu2{margin-left: 30px;}
 .menu3{margin-left: 30px;}
